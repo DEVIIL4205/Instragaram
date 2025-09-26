@@ -4,7 +4,6 @@ from threading import Thread, Event
 import time
 import random
 import string
-from instagrapi mport Client
 from datetime import datetime
 import json
 import re
@@ -479,4 +478,5 @@ def get_stats():
     return jsonify(task_stats)
 
 if __name__ == '__main__':
+
     app.run(host='0.0.0.0', port=5000)
